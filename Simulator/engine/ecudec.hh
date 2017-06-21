@@ -1,0 +1,18 @@
+Resource *r0 = new Resource(0, 1, 100, 100, "ECU0");
+resources.push_back(r0);
+Scheduler *s0 = new Scheduler(EDF, 1, r0);
+Resource *r1 = new Resource(1, 1, 100, 100, "ECU1");
+resources.push_back(r1);
+Scheduler *s1 = new Scheduler(EDF, 1, r1);
+Resource *r2 = new Resource(2, 1, 100, 100, "ECU2");
+resources.push_back(r2);
+Scheduler *s2 = new Scheduler(EDF, 1, r2);
+Resource *r3 = new Resource(3, 1, 100, 100, "ECU3");
+resources.push_back(r3);
+Scheduler *s3 = new Scheduler(EDF, 1, r3);
+Resource *r4 = new Resource(4, 1, 100, 100, "ECU4");
+resources.push_back(r4);
+Scheduler *s4 = new Scheduler(EDF, 1, r4);
+Resource *r5 = new Resource(5, 1, 100, 100, "ECU5");
+resources.push_back(r5);
+Scheduler *s5 = new Scheduler(EDF, 1, r5);
